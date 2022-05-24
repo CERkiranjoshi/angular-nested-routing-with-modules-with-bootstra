@@ -1,0 +1,44 @@
+# Environments
+.env
+.venv
+.venv3
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+.idea/
+db.sqlite*
+*.pyc
+underwrite_assistant/media/
+underwrite_assistant/media/*.*
+underwrite_assistant/logs/*.*
+temp_dir/
+logs/*
+local_settings*.py
+.DS_Store
+.vscode/
+celerybeat-schedule
+.~lock*#
+
+# Frontend
+bower_components/
+node_modules/
+static/
+angular/angular-manifest.json
+templates/index-dist.html
+templates/home-*-*.html
+underwrite_assistant/static
+
+angular/src/css/client.scss
+
+
+# Modules
+angular/src/app/sem
+angular/src/app/sem/*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+notebooks/
